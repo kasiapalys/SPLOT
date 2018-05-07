@@ -1,0 +1,418 @@
+/* SECTION:WSZYSTKO*/
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.clean {
+    clear: both;
+}
+
+
+/*LOGO*/
+.logoSplot {
+    height: 98px;
+}
+
+.logo {
+    color:rgb(0, 0, 0);
+    padding-top: 26px;
+    padding-left: 25px;
+    float: left;
+    display: inline;
+} 
+
+.navAboutMe {
+    width: 74px;
+}
+
+/*nawigation*/
+.navWrap {
+    margin-right: 10%;
+} 
+
+.navWrapLeft {
+    padding-left: 4%;
+}
+
+.navBackground {
+    background-color: white;
+}
+
+/*SLIDESHOW*/
+.mainDivSladeshow {
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 462px;
+}
+
+/* .pictureWrap {
+    margin-top: 45%;
+} */
+
+/*PICTURES*/
+.sizePicture {
+    padding-bottom: 15px;
+    margin-top: 16px; 
+    width: 100%;
+    }
+    
+.minionImage {
+    background-image: url('./../products/pictures/minion/IMG_2906.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chairImage {
+    background-image: url('./../grafica/Photo by Kelly Sikkema on Unsplash.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableImage {
+    background-image: url('./../grafica/Photo by bar rocknwool on Unsplash.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sheepInTheFieldImage {
+    background-image: url('./../products/pictures/sheepInTheField/IMG_2921.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grayWithApocketImage {
+    background-image: url('./../products/pictures/grayWithApocket/IMG_2952.jpeg');
+    background-size: cover;
+    /* background-position: center; */
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstPicture {
+    background-image: url("./../grafica/druty1.jpg");
+    background-size: cover;
+}
+
+.secondPicture {
+    background-image: url("./../grafica/druty2.jpg");
+    background-size: cover;
+}
+
+.thirdPicture {
+    background-image: url("./../grafica/druty3.jpg");
+    background-size: cover; 
+}
+
+.firstPicture1 {
+    background-image: url("./../products/pictures/stripes/IMG_3484.jpeg");
+    background-size: cover;
+}
+
+.secondPicture2 {
+    background-image: url("./../products/pictures/sheepInTheField/IMG_2921.jpg");
+    background-size: cover;
+}
+.thirdPicture3 {
+    background-image: url("./../products/pictures/minion/IMG_2906.jpeg");
+    background-size: cover; 
+}
+.firstPicture4 {
+    background-image: url("./../products/pictures/greenAndPaw/IMG_2917.jpeg");
+    background-size: cover;
+}
+.secondPicture5 {
+    background-image: url("./../products/pictures/interleaved/IMG_2921.jpg");
+    background-size: cover;
+}
+.thirdPicture6 {
+    background-image: url("./../products/pictures/sheepInTheField/IMG_3232.JPG");
+    background-size: cover; 
+}
+
+.fontSladeshow {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+.item {
+    margin: 0px;
+    display: table;
+}
+.item h2 {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    padding-top: 59px;
+}
+.firstPicture h2 {
+    text-align: right;
+    padding-bottom: 70px;
+    padding-right: 30px;
+}
+.thirdPicture h2 {
+    text-align: right;
+    padding-bottom: 70px;
+    padding-right: 10px;
+    padding-top: 95px;
+}
+
+/*TABELE*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;}
+table {
+    width: 600px;}
+th,td {
+    padding: 7px 10px 10px 10px;}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999999;
+    text-align: left;}
+tr.even {
+    background-color: #efefef;}
+tr:hover{
+    background-color: #c3e6e5;}
+.money {
+    text-align: right;}
+    
+/*BLOK*/
+
+.bloki {
+    margin: 20px;
+}
+
+.pierwszyBlok {
+    background-color: grey;
+}
+
+.pierwszyLewy {
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: table;
+}
+
+.pierwszyPrawy {
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-image: url("szkot/szkot2.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain; 
+}
+
+.drugiBlok {
+    background-color: green;
+}
+
+.trzeciBlok {
+    background-color: yellowgreen;
+}
+
+.drugiLewy {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: table;
+}
+
+.drugiPrawy{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url("szkot/szkot11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+/*ZDJĘCIA*/
+
+.zdjecieStylowe {
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stylCaleZdjecie {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.zdjecie1 {
+    background-image:url("szkot/szkot3.jpg");    
+}
+
+.zdjecie2 {
+    background-image:url("szkot/szkot8.jpg")
+}
+
+.zdjecie3 {
+    background-image:url("szkot/szkot9.jpg")
+}
+
+.zdjecie4 {
+    background-image:url("szkot/szkot1.jpg")
+}
+
+.zdjecie10 {
+    background-image:url("szkot/szkot10.jpg")
+}
+
+.uklad4 .zdjecie {
+    float: left;
+    height: 50%;
+    width: 50%;
+}
+
+.uklad1 .zdjecie {
+    float: left;
+    height: 100%;
+    width: 100%; 
+}
+
+
+/*ROZMIAR KSZTAŁTU*/
+
+.rozmiarKwadrat {
+    float: left;
+    width: calc(33.333% - 13.334px);
+    height: 400px;
+    margin-right: 20px;
+}
+
+.rozmiarProstokat {
+    float: left;
+    width: calc(66.966% - 13.334px);
+    height: 400px;
+    margin-right: 20px;
+}
+
+.rozmiarMalyKwadrat {
+    float: left;
+    width: calc(25% - 15px);
+    height: 400px;
+    margin-right: 20px;
+}
+
+.xxx > .malyKwadracik {
+    float: left;
+    width: calc(20% - 16px);
+    height: 400px;
+    margin-right: 20px;  
+}
+
+.rozmiarMalenkiKwadrat {
+    float: left;
+    width: calc(16.66% - 16.66px);
+    height: 400px;
+    margin-right: 20px;
+}
+
+/*KSZTAŁTY*/
+
+.kwadracik {
+    background-color:grey;
+}
+
+.prostokat {
+    background-color: goldenrod;
+}
+
+.malyKwadracik {
+    background-color: pink; 
+}
+
+/*POMOCNICZE*/
+
+.czyszczenie {
+    clear: both;
+}
+
+.ostatni {
+    margin-right: 0px !important;
+}
+
+/*TEKST*/
+.styl {
+    font-size: 40px;
+    font-weight: bolder;  
+    text-align: center; 
+    line-height: 23px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.styl1 {
+    font-size: 20px;
+    font-weight: bolder;  
+    text-align: center; 
+    line-height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.cechy
+    font-size: 15px;
+    font-weight: bolder;  
+    text-align: center; 
+    line-height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/*lista na końcu/listy nieuporzadkowane*/
+ul li {
+   color: blue; 
+}
+
+ul>li {
+    color: green;
+}
+
+.naglowek {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-image: url("szkot/szkot1.jpg");
+}
+
+li {
+    margin: 10px 0px 0px 0px
+}
+
+/* listy uporządkowane*/
+ol {
+    list-style-type: decimal-leading-zero;}
+
+/*FOOTER*/
+.dogPicture {
+    margin: 2% 33%;
+}

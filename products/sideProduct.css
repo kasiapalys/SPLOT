@@ -1,0 +1,78 @@
+/*MAIN PART OF WEB*/
+
+/*5 main box on the web*/
+.GreyPictureAfterClick {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 20px; 
+}
+.GreyHref {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+
+    padding-top: 50%;
+
+    opacity: 0; 
+    font-weight: bold;
+    color: white; 
+    text-align: center;
+}
+/*musze najechac na picture block czyli 
+miejsce na ktore klikam, w momwnci jak 
+bodziec dostaje hover to wtedy to pozwala
+ mi zrobic jakies inne zachowanie, wewnątrz 
+ reakcji tego bodzca. To co pod klikanie a 
+ tutaj robie pseudoklasą. Opacity 0 wylaczone 
+ a 1 zakrywa. Opacity- zakrywa.*/
+.PictureBlock:hover .GreyPictureAfterClick {
+    opacity: 0.6;
+}
+.GreyPictureAfterClick {
+    opacity: 0;
+}
+.PictureBlock:hover .GreyHref {
+    opacity: 1;
+}
+    /*BLOCK*/
+    .firstBlockGap {
+        margin-top: 10%;
+    }
+
+    .block {
+        margin-left: 80px;
+        margin-right: 80px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .PictureBlock {
+        display: inline-block;
+        margin-left: 20px; 
+        width: calc(25% - 30px);
+        position: relative;
+    }
+    /*picture*/
+    .sizePicture {
+        width: 100%;
+    }
+    .lastPicture {
+        margin-right: 0px !important;
+    }
+    .fontPicture {
+        font-size: 12px;
+        color: grey;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .fontPrice {
+        color:black;
+        font-size: 12px;
+        margin-left: 20px;
+        font-weight: bold;
+        width: 20px;
+    }

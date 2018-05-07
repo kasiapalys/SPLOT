@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <meta charset="utf-8">
+            <title>SPLOT</title>
+            <link rel="stylesheet" type="text/css" href="./../../../CSS/normalize.css" />
+            <link rel="stylesheet" type="text/css" href="./../../../CSS/bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="./../../../CSS/bootstrap//bootstrap.min.css.map">
+            <link rel="stylesheet" type="text/css" href="./../../../CSS/bootstrap/fontawesome.min.css">
+            <link rel="stylesheet" href="./../../../CSS/slideshow.css">
+            <link rel="stylesheet" type="text/css" href="./../../../CSS/splot.css" />
+            <link rel="stylesheet" type="text/css" href="./../../sideProduct.css" />
+            <link rel="stylesheet" type="text/css" href="./../Product.css" />
+            <link rel="stylesheet" type="text/css" href="./../Pictures/Product.css" />
+            <script src='./../../../CSS/js/jquery-3.3.1.min.js'></script>
+            <script src='./../../../CSS/js/splot.js'></script>
+            <script src="./../../../CSS/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        </head>    
+
+<body>
+<div class='row'>
+    <div class='col-lg-12 col-sm-12'> 
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navBackground">
+            <a class="navbar-brand">
+                <img class="logoSplot" src="./../../../grafica/logoSplot.jpg"> 
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navWrapLeft">
+                    <li class="nav-item navWrap active">
+                    <a class="nav-link" href="./../../../uklad.html">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item navWrap">
+                    <a class="nav-link navAboutMe" href='./../../../o mnie/oMnie.html'>O MNIE</a>
+                    </li>
+                    <li class="nav-item navWrap">
+                    <a class="nav-link" href='./../../sideProduct.html'>PRODUKTY</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+                                
+<div class='container-fluid'>
+    <div class="row rowPosition ">
+        <div class='col-lg-3 col-sm-12'> 
+                <img class="sizePicture sizePictureFirst GreyLine" src="./IMG_3052.JPG">
+                <img class="sizePicture GreyLine" src="./IMG_2946.JPG">
+                <img class="sizePicture lastPicture GreyLine" src="./IMG_3060.JPG">
+                <div class="clean"></div>
+        </div>
+
+        <div class='col-lg-5 col-sm-12'>
+                <img class="sizePicture sizePictureFirst" src="./IMG_2915.jpeg">
+                <div class="clean"></div>  
+        </div>
+
+        <div class='col-lg-4 col-sm-12 sizeColumnThree'>
+            <p class="paragraphTitle sizePictureFirst">SWETER DLA PSA</p>
+            <p class='paragraphTitle'>50zł</p>
+
+            <fieldset class="paragraphGrey"><legend>Jeżeli chcesz kupić sweter, proszę wypełnij formylarz i kliknij przycisk wyślij:</legend>
+                <form class="tableSpaceBottom  fontSize" action="mailto:palys.katarzyna@gmail.com?subject=Winter%20is%20comming!%20My%20dog%20this%20winter%20will%20be%20fashon%20and%20warm!" method="post" enctype="text/plain">
+                Imię i nazwisko:<br>
+                <input  type="text" name="name" placeholder="John Smith" class="tableSpaceBottom "><br>
+                E-mail:<br>
+                <input type="text" name="mail" placeholder="john.smith@gmail.com" class="tableSpaceBottom "><br>
+                Numer produktu:<br>
+                <input class="inputSize" type="text" name="comment" size="50" placeholder="2027178"><br><br>
+                Szczegóły zamówienia:<br>
+                <textarea type="text" name="comment" size="50" class="paragraphGrey textarea" placeholder="Pamiętaj, zmierz obwód klatki psa - w jej najszerszym miejscu oraz zmierz obwód szyi psa."></textarea>
+                <input class="button" type="submit" value="Wyślij">
+                <input class="button" type="reset" value="Wyczyść">
+                </form>
+            </fieldset>
+
+            <p class="fontSize paragraphGrey">Wszystkie swetry są robione z bawełny. 
+                Każdy wzór jest unikatowy i w większości sweterków robiony tylko jeden raz.</p>
+
+            <p class="textNormal fontSize paragraphGrey">Jeżeli macie Państwo jakieś szczególne wymagania, proszę napiszcie o nich w mailu.</p>
+            <p class="paragraphGrey paragraphTitle">Numer produktu: 2027178</p>
+            <div class="clean"></div> 
+            
+            <p class="fontSize paragraphTitle paragraphGrey GreyLine">DOSTAWA I PŁATNOŚCI</p>
+            <p class="tableFontSize paragraphTitle">Metody płatności</p>
+            <div class="fontSize paragraphGrey">
+                <p>przelew bankowy lub wpłata na Poczcie - płatność z góry
+                <br>szybki przelew z PayU
+                <br>karta płatnicza / kredytowa  
+                <br>konto PayPal</p>  
+            </div> 
+
+            <p class="tableFontSize paragraphTitle">Dostawa</p>
+            <p class="fontSize paragraphGrey">Termin realizacji zamówienia to 1-2 dni roboczych.</p>
+
+    <!-- jak bedę umiała JS to po kliknieciu polski powinna pojawic sie tabelka z polskimi
+        cenami a po kliknieciu other cointry z angielskimi cenami
+
+    <label for="country"></label>
+        <select class="fontSize paragraphGrey tableSpace">
+            <option value="Poland" placeholder="Poland">Poland<a href="#Poland"/a></option>
+            <option value="Other country" id="Other country">Other country<a href="#Other country"/a></a></option>
+        </select>
+    -->
+            <p class="tableSpaceTop paragraphGrey fontSize paragraphTitle">POLSKA</p>
+            <div class="paragraphGrey tableFontSize tableSpace" id="Poland">
+                <table class="tableWidth">
+                    <tr class="tableGreyLine">
+                        <th></th>
+                        <th>Pierwsza szt.</th>
+                        <th>Dopłata za kolejną szt.</th>
+                    </tr>
+                    <tr class="tableGreyLine">
+                        <td>Poczta</td>
+                        <td>30,00 PLN</td>
+                        <td>30,00 PLN</td>
+                    </tr>
+                    <tr class="tableGreyLine">
+                        <td>Pocztex</td>
+                        <td>35,00 PLN</td>
+                        <td>35,00 PLN</td>
+                    </tr>
+                    <tr class="tableGreyLine">
+                        <td>Kurier</td>
+                        <td>16,00 PLN</td>
+                        <td>16,00 PLN</td>
+                    </tr>
+                </table>
+            </div>
+
+            <p class="tableSpaceTop paragraphGrey fontSize paragraphTitle">POZOSTAŁE KRAJE</p>
+            <div class="tableSpace fontSize paragraphGrey tableFontSize" id="Other country">
+                    <table class="tableWidth">
+                        <tr class="tableGreyLine">
+                            <th></th>
+                            <th>Pierwsza szt.</th>
+                            <th>Dopłata za kolejną szt.</th>
+                        </tr>
+                        <tr class="tableGreyLine">
+                            <td>Przesyłka</td>
+                            <td>130,00 PLN</td>
+                            <td>130,00 PLN</td>
+                        </tr>
+                    </table>
+            </div>
+            
+                
+                <p class="tableSpaceTop fontSize paragraphGrey">Wysyłka z kraju: Polska</p>
+            </div>      
+       
+
+
+</body>
