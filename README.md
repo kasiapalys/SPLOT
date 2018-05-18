@@ -1,2 +1,2 @@
 # SPLOT
-small side in boodstrap
+small site in boodstrap
