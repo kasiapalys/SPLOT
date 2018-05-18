@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SPLOT</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="./CSS/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/bootstrap/bootstrap.min.css.map">
+        <link rel="stylesheet" type="text/css" href="./CSS/webfonts/fontawesome.min.css">
+        <link rel="stylesheet" href="./CSS/slideshow.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/splot.css" />
+        <script src='./CSS/js/jquery-3.3.1.min.js'></script>
+        <script src='./CSS/js/splot.js'></script>
+        <script src="./CSS/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    </head>    
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navBackground">
+        <a class="navbar-brand">
+            <img class="logoSplot" src="./grafica/logoSplot.jpg"> 
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navWrapLeft">
+                <li class="nav-item navWrap active">
+                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item navWrap">
+                <a class="nav-link navAboutMe" href='./o mnie/oMnie.html'>O MNIE</a>
+                </li>
+                <li class="nav-item navWrap">
+                <a class="nav-link" href='./products/sideProduct.html'>PRODUKTY</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+            
+<div class="container-fluid">
+
+<!--HOME PAGE-TRZY BOKSY - TRZY SLAJDERY-->
+    <div class="row">
+        <div class="col-6 col-md-4 tableImage"></div>
+
+        <div class="col-6 col-md-4">
+            <h1>Podoba Ci się jakaś rzecz, <br> napisz ile jesteś skłonny<br> za nią dać!</h1>
+            <h2>Znajdujesz się na stronie hobbystki, która uwielbia robić na drutach. Być może strona będzie kojarzyła Ci się ze sklepem internetowym, ale nim nie jest!</h2>
+        </div>
+
+        <div class="col-6 col-md-4">
+            <div>
+                <div class="mainDivSladeshow1 gallery autoplay items-3 pictureWrap">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                    <div id="item-3" class="control-operator"></div>
+                
+                    <figure class="item chairImage"></figure>
+                    <figure class="item dogImage"></figure>
+                    <figure class="item cremeImage"></figure>
+                
+                    <div class="controls">
+                    <a href="#item-1" class="control-button">•</a>
+                    <a href="#item-2" class="control-button">•</a>
+                    <a href="#item-2" class="control-button">•</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--DWA BOKSY - jeden duży drugi mały-->
+    <div class="row">
+
+        <div class="col-6 col-md-4 grayWithApocketImage"></div>
+        
+        <div class="col-12 col-md-8">
+            <div>
+                <div class="mainDivSladeshow gallery autoplay items-3 pictureWrap">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                    <div id="item-3" class="control-operator"></div>
+                
+                    <figure class="item firstPicture1"></figure>
+                    <figure class="item secondPicture2"></figure>
+                    <figure class="item thirdPicture3"></figure>
+                
+                    <div class="controls">
+                    <a href="#item-1" class="control-button">•</a>
+                    <a href="#item-2" class="control-button">•</a>
+                    <a href="#item-3" class="control-button">•</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     <!--CONTACT-->
+     <section class='sectionContact' id='Contact'>
+        <div class="row contactWrap">
+            <div class='col-lg-6 contactText'>
+                <p>Jeśli masz pytania, po prostu napisz!
+                    <a href="mailto:ela@gmail.com" role="button" class="btn btn-dark delay mail">KONTAKT
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class='col-lg-6'>
+                <img class='contactImg' src='./grafica/Photo by Quino Al on Unsplash.jpg'>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+
+

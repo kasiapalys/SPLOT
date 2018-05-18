@@ -1,0 +1,90 @@
+/*HEADER*/
+* {
+    font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+.clean {
+    clear: both;
+}
+
+/*ROW*/
+.rowPosition {
+    margin-top: 4%;
+}
+
+.sizeColumnThree {
+    margin-top: 1%; 
+}
+
+/*PICTURE*/
+.sizePicture {
+padding-bottom: 15px;
+margin-top: 16px; 
+width: 100%;
+}
+.sizePictureFirst {
+padding-top: 80px;
+}
+.GreyLine {
+border-bottom-color: grey;
+border-style: none none solid none;
+}
+
+/*PARAGRAPH*/
+.paragraphTitle {
+font-weight: bold;
+}
+.paragraphGrey {
+color: grey;
+}
+.fontSize {
+font-size: 16px;
+}
+.textNormal {
+font-weight: normal;
+}
+
+/*BUTTON*/
+.button {
+background-color: grey;
+color: white;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.styleHref {
+    text-decoration: none;
+    color: white;
+}
+/*TABLE*/
+.tableWidth {
+width: 100%;
+border-collapse: collapse;
+}
+.tableFontSize {
+font-size: 16px;
+}
+.tableGreyLine {
+border-bottom: grey;
+}
+.tableSpace {
+margin: 10px;
+}
+.tableSpaceBottom {
+margin-bottom: 10px;
+}
+th,td {
+border-bottom: 1px solid grey;  
+text-align: right;
+line-height: 2em;
+}
+.tableSpaceTop {
+margin-top: 9px;
+}
+/*textarea*/
+.textarea {
+height: 50px;
+width: 100%;
+}
+
