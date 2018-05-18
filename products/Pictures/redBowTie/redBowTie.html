@@ -17,6 +17,7 @@
             <script src='./../../../CSS/js/splot.js'></script>
             <script src="./../../../CSS/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+            <script src='./../../../CSS/js/jquery.zoom.min.js'></script>
         </head>    
 
 <body>
@@ -51,9 +52,9 @@
 <div class='container-fluid'>
     <div class="row rowPosition ">
         <div class='col-lg-3 col-sm-12'> 
-                <img class="sizePicture sizePictureFirst GreyLine" src="./IMG_3052.JPG">
-                <img class="sizePicture GreyLine" src="./IMG_2946.JPG">
-                <img class="sizePicture lastPicture GreyLine" src="./IMG_3060.JPG">
+                <img class="sizePicture .picture sizePictureFirst GreyLine" src="./IMG_3052.JPG">
+                <img class="sizePicture .picture GreyLine" src="./IMG_2946.JPG">
+                <img class="sizePicture .picture lastPicture GreyLine" src="./IMG_3060.JPG">
                 <div class="clean"></div>
         </div>
 
@@ -63,29 +64,28 @@
         </div>
 
         <div class='col-lg-4 col-sm-12 sizeColumnThree'>
-            <p class="paragraphTitle sizePictureFirst">SWETER DLA PSA</p>
-            <p class='paragraphTitle'>50zł</p>
+            <p class="paragraphTitle sizePictureFirst">NAZWA: redBowTie</p>
 
-            <fieldset class="paragraphGrey"><legend>Jeżeli chcesz kupić sweter, proszę wypełnij formylarz i kliknij przycisk wyślij:</legend>
-                <form class="tableSpaceBottom  fontSize" action="mailto:palys.katarzyna@gmail.com?subject=Winter%20is%20comming!%20My%20dog%20this%20winter%20will%20be%20fashon%20and%20warm!" method="post" enctype="text/plain">
-                Imię i nazwisko:<br>
+            <fieldset class="paragraphGrey"><legend>Jeżeli Twój zwierzak chciałby posiadać taki sweter. Napisz do mnie ile mógłbyś za niego dać! Ja odpiszę czy w tej cenie jestem wstanie wykonać produkt :)</legend>
+                <form class="tableSpaceBottom  fontSize paragraphTitle" action="mailto:palys.katarzyna@gmail.com?subject=Winter%20is%20comming!%20My%20dog%20this%20winter%20will%20be%20fashon%20and%20warm!" method="post" enctype="text/plain">
+                Ile możesz wydać na ten produkt:<br>
+                <input  type="text" name="name" placeholder="sugerowana cena" class="tableSpaceBottom "><br>
+                Imię i nazwisko::<br>
                 <input  type="text" name="name" placeholder="John Smith" class="tableSpaceBottom "><br>
                 E-mail:<br>
                 <input type="text" name="mail" placeholder="john.smith@gmail.com" class="tableSpaceBottom "><br>
-                Numer produktu:<br>
-                <input class="inputSize" type="text" name="comment" size="50" placeholder="2027178"><br><br>
+                Nazwa produktu:<br>
+                <input class="inputSize" type="text" name="comment" size="50" placeholder="redBowTie"><br><br>
                 Szczegóły zamówienia:<br>
-                <textarea type="text" name="comment" size="50" class="paragraphGrey textarea" placeholder="Pamiętaj, zmierz obwód klatki psa - w jej najszerszym miejscu oraz zmierz obwód szyi psa."></textarea>
+                <textarea type="text" name="comment" size="50" class="paragraphGrey textarea" placeholder="Pamiętaj, zmierzy szyję i obwód klatki psa - w jej najszerszym miejscu. Super jak opiszesz co należy zmienić we wzorze!"></textarea>
                 <input class="button" type="submit" value="Wyślij">
                 <input class="button" type="reset" value="Wyczyść">
                 </form>
             </fieldset>
 
             <p class="fontSize paragraphGrey">Wszystkie swetry są robione z bawełny. 
-                Każdy wzór jest unikatowy i w większości sweterków robiony tylko jeden raz.</p>
+                Każdy wzór jest unikatowy. To co widzisz to raczej podpowiedz, większość sweterków bazują na wzorze a reszta skrojona jest na miarę zwierzaka i jego/jej potrzeb :)</p>
 
-            <p class="textNormal fontSize paragraphGrey">Jeżeli macie Państwo jakieś szczególne wymagania, proszę napiszcie o nich w mailu.</p>
-            <p class="paragraphGrey paragraphTitle">Numer produktu: 2027178</p>
             <div class="clean"></div> 
             
             <p class="fontSize paragraphTitle paragraphGrey GreyLine">DOSTAWA I PŁATNOŚCI</p>
@@ -98,7 +98,7 @@
             </div> 
 
             <p class="tableFontSize paragraphTitle">Dostawa</p>
-            <p class="fontSize paragraphGrey">Termin realizacji zamówienia to 1-2 dni roboczych.</p>
+            <p class="fontSize paragraphGrey">Termin realizacji zamówienia do uzgodnienia (zależne od skomplikowania). Zazwyczaj 1-2 dni robocze.</p>
 
     <!-- jak bedę umiała JS to po kliknieciu polski powinna pojawic sie tabelka z polskimi
         cenami a po kliknieciu other cointry z angielskimi cenami

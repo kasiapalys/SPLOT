@@ -15,13 +15,12 @@
     left: 20px;
     width: 100%;
     height: 100%;
-
     padding-top: 50%;
-
-    opacity: 0; 
+    /* opacity: 0;  */
     font-weight: bold;
     color: white; 
     text-align: center;
+    z-index: 1;
 }
 /*musze najechac na picture block czyli 
 miejsce na ktore klikam, w momwnci jak 
