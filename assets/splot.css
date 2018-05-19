@@ -105,7 +105,7 @@ h2 {
 }
 
 .chairImage {
-    background-image: url('./../grafica/Photo by Kelly Sikkema on Unsplash.jpg');
+    background-image: url('./../graphics/Photo by Kelly Sikkema on Unsplash.jpg');
     background-size: cover;
     /* background-position: center; */
     margin-top: 83px;
@@ -114,7 +114,7 @@ h2 {
 }
 
 .dogImage {
-    background-image: url('./../grafica/Photo by Blake Lipthratt on Unsplash.jpg');
+    background-image: url('./../graphics/Photo by Blake Lipthratt on Unsplash.jpg');
     background-size: cover;
     /* background-position: center; */
     margin-top: 83px;
@@ -131,8 +131,8 @@ h2 {
 }
 
 .tableImage {
-    background-image: url('./../grafica/Photo by bar rocknwool on Unsplash.jpg');
-    /* background-image: url('./../grafica/Photo by Blake Lipthratt on Unsplash.jpg'); */
+    background-image: url('./../graphics/Photo by bar rocknwool on Unsplash.jpg');
+    /* background-image: url('./../graphics/Photo by Blake Lipthratt on Unsplash.jpg'); */
     background-size: cover;
     /* background-position: center; */
     margin-top: 83px;
@@ -159,17 +159,17 @@ h2 {
 }
 
 .firstPicture {
-    background-image: url("./../grafica/druty1.jpg");
+    background-image: url("./../graphics/druty1.jpg");
     background-size: cover;
 }
 
 .secondPicture {
-    background-image: url("./../grafica/druty2.jpg");
+    background-image: url("./../graphics/druty2.jpg");
     background-size: cover;
 }
 
 .thirdPicture {
-    background-image: url("./../grafica/druty3.jpg");
+    background-image: url("./../graphics/druty3.jpg");
     background-size: cover; 
 }
 
@@ -464,43 +464,24 @@ li {
 ol {
     list-style-type: decimal-leading-zero;}
 
-/*CONTACT*/
-.sectionContact {
-    display: block;
-    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 81vh;
-    background-position: center right;
-    z-index: 0;
-  }
+/*FOOTER*/
 
-  .contactWrap {
+.contactWrap {
     padding-top: 3%;
     padding-left: 6%;
 }
 
-  .contactText {
-    padding-left: 17%;
-    margin-left: 0%;
-    margin-top: 13%;
+.contactText {
+    font-size: 18px;
+    font-weight: bold;
   }
 
-  .mail {
+.mail {
     margin-top: -1%;
     margin-left: 4%;
 }
 
-  .contactImg {
+.contactImg {
     width: 93%;
     margin-left: 10%;
-}
-
-/*FOOTER*/
-.dogPicture {
-    margin: 2% 33%;
 }
