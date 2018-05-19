@@ -7,4 +7,8 @@ $(document).ready(function(){
     var sciezka = $(this).attr('src') 
     $('.bigPicture').attr('src', sciezka)
   })
+
+    var name = $('.productName').text()
+    $('.inputSize').attr('value', name)
+  
 });

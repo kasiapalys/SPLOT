@@ -1,7 +1,5 @@
 /*HEADER*/
-* {
-    font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-}
+
 .clean {
     clear: both;
 }
@@ -41,6 +39,9 @@ font-size: 16px;
 }
 .textNormal {
 font-weight: normal;
+}
+.formSize {
+    font-size: 18px;
 }
 
 /*BUTTON*/
