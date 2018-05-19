@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.zoom').zoom({
     magnify: 0.2,
+    touch: false,
   })
 
   $('.picture').on('click', function() {

@@ -429,7 +429,7 @@ tr:hover{
     display: table-cell;
 }
 
-.cechy
+.cechy {
     font-size: 15px;
     font-weight: bolder;  
     text-align: center; 
@@ -466,23 +466,37 @@ ol {
 
 /*FOOTER*/
 
-.contactWrap {
-    padding-top: 3%;
-    padding-left: 6%;
+.contactRow {
+    position: relative;
 }
 
-.contactText {
+.contactWrap {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: auto;
+    transform: translateX(-50%);
+}
+
+.contactWrap > div {
+    float: left;
+}
+
+.contactTextPosition {
     font-size: 18px;
     font-weight: bold;
-  }
-
-.mail {
-    margin-top: 1%;
-    margin-left: -7%;
-    margin-bottom: 5%;
+    margin-top: 11px;
 }
 
 .contactImg {
     width: 93%;
     margin-left: 10%;
+}
+
+.footerSocialPosition {
+    font-size: 40px;
+    margin-left: 12px;
 }
