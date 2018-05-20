@@ -58,6 +58,8 @@ bodziec dostaje hover to wtedy to pozwala
     /*picture*/
     .sizePicture {
         width: 100%;
+        image-orientation: from-image;
+
     }
     .lastPicture {
         margin-right: 0px !important;
