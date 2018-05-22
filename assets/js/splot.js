@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.zoom').zoom({
-    magnify: 0.2,
+    magnify: 0.5,
     touch: false,
   })
 

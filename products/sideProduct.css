@@ -9,7 +9,7 @@
     top: 0px;
     left: 20px; 
 }
-.GreyHref {
+ .GreyHref {
     position: absolute;
     top: -36px;
     left: -2px;
@@ -21,6 +21,10 @@
     color: white; 
     text-align: center;
     z-index: 1;
+}
+
+.zoom {
+    display: block;
 }
 /*musze najechac na picture block czyli 
 miejsce na ktore klikam, w momwnci jak 
@@ -40,7 +44,7 @@ bodziec dostaje hover to wtedy to pozwala
 }
     /*BLOCK*/
     .firstBlockGap {
-        margin-top: 10%;
+        margin-top: 13%;
     }
 
     .block {
@@ -56,11 +60,14 @@ bodziec dostaje hover to wtedy to pozwala
         position: relative;
     }
     /*picture*/
-    .sizePicture {
-        width: 100%;
-        image-orientation: from-image;
-
+    .productImage {
+        margin: 15px 0px;
     }
+
+    .productImage img {
+        width: 100%;
+    }
+    
     .lastPicture {
         margin-right: 0px !important;
     }
