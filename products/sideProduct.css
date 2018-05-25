@@ -84,3 +84,56 @@ bodziec dostaje hover to wtedy to pozwala
         font-weight: bold;
         width: 20px;
     }
+
+    /*popup*/
+    .popupLayout {        
+        position: absolute;
+        z-index: 7;
+    }
+
+    .popupGrey {
+        position: fixed;
+        background-color: grey;
+        opacity: 0.8;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .popupClose {
+        position: absolute;
+        top: 0;
+        right: 6px;
+        z-index: 5;
+    }
+
+    .popupMain {
+        position: fixed;
+        margin: auto;
+        width: 100%;
+        width: 50%;
+        height: 72%;
+        z-index: 6;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .popupImage {
+        width: 100%;
+    }
+
+    .popupClaim {
+        position: absolute;
+        bottom: 13%;
+        left: 58%;
+        width: 40%;
+        font-weight: bold;
+    }
+
+    .popupMain .popupClose {
+        cursor: pointer;
+    }

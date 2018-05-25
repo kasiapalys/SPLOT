@@ -36,6 +36,7 @@ body {
 
 .navBackground {
     background-color: white;
+    z-index: 3;
 }
 
 /*SLIDESHOW*/
@@ -498,4 +499,26 @@ ol {
 .footerSocialPosition {
     font-size: 40px;
     margin-left: 12px;
+}
+
+/*POPUP MAIN PADE*/
+.popupButton {
+    color: grey;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.popupStyl {
+    background-image: url("./../graphics/Photo by LinedPhoto on Unsplash small.jpg");
+    height: 78%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10%;
+}
+
+.popupText {
+    font-weight: 900;
+    color: rgb(61, 57, 57);
+    background-color:#e8e8e8;
 }
